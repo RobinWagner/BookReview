@@ -10,6 +10,6 @@ Book.create! [
 
 eloquent = Book.find_by name: "Eloquent Ruby"
 eloquent.notes.create! [
-  { title: "Wow", note: "Great book to learn Ruby" }
+  { title: "Wow", note: "Great book to learn Ruby" },
   { title: "Funny", note: "Doesn't put you to sleep" }
 ]
